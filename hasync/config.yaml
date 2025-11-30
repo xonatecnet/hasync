@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: HAsync - Home Assistant Manager
-version: "1.0.0"
+version: "1.0.1"
 slug: hasync
 description: Advanced Home Assistant management interface with client pairing and entity synchronization
 url: https://github.com/xonatecnet/hasync
