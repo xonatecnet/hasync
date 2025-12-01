@@ -36,4 +36,3 @@ schema:
   log_level: list(debug|info|warn|error)
   max_clients: int(1,1000)
   rate_limit: int(100,10000)
-image: "ghcr.io/xonatecnet/{arch}-addon-hasync"
