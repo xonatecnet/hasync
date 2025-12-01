@@ -1,36 +1,43 @@
-# HAsync Add-on Repository
+# GitHub Integration V2 Add-on
 
-Home Assistant add-on repository for HAsync - Advanced Home Assistant Manager.
+Advanced GitHub integration add-on for Home Assistant with AI-powered code analysis, issue management, and automated workflows.
+
+## Features
+
+- 🔔 Real-time GitHub webhook integration
+- 🤖 AI-powered code review and analysis
+- 📊 Issue and PR tracking
+- 🏠 Native Home Assistant notifications
+- 🔐 Secure token-based authentication
+- 📦 Multi-repository support
+- ⚡ High-performance event processing
 
 ## Installation
 
-1. Navigate to Settings → Add-ons → Add-on Store in Home Assistant
-2. Click the three dots menu (⋮) in the top right corner
-3. Select "Repositories"
-4. Add this repository URL:
-   ```
-   https://github.com/xonatecnet/hasync
-   ```
-5. Find "HAsync - Home Assistant Manager" in the add-on store
-6. Click "Install"
+1. Navigate to the Home Assistant Add-on Store
+2. Add this repository: `https://github.com/yourusername/hassio-addons`
+3. Find "GitHub Integration V2" in the list
+4. Click Install
+5. Configure your GitHub token
+6. Start the add-on
 
-## Add-ons
+## Quick Start
 
-This repository contains the following add-on:
+1. Generate a GitHub Personal Access Token with `repo` scope
+2. Configure the add-on with your token and repositories
+3. Set up webhooks in your GitHub repositories
+4. Start receiving real-time notifications in Home Assistant
 
-### [HAsync - Home Assistant Manager](hasync)
+## Configuration
 
-Advanced Home Assistant management interface with client pairing and entity synchronization.
-
-- Backend API with WebSocket support
-- Modern React frontend
-- Client device management
-- Real-time entity synchronization
-- Secure JWT authentication
-
-For more information, see the [add-on documentation](hasync/DOCS.md).
+See [DOCS.md](DOCS.md) for detailed configuration instructions.
 
 ## Support
 
-For issues and feature requests, please visit:
-https://github.com/xonatecnet/hasync/issues
+- [Documentation](DOCS.md)
+- [Issue Tracker](https://github.com/yourusername/hassio-addons/issues)
+- [Changelog](CHANGELOG.md)
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details
