@@ -5,8 +5,8 @@ slug: hasync
 description: Advanced Home Assistant management interface with client pairing and entity synchronization
 url: https://github.com/xonatecnet/hasync
 arch:
-  - aarch64
   - amd64
+  - i386
 init: false
 startup: application
 boot: auto
